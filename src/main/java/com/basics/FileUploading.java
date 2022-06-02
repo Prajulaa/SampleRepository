@@ -22,8 +22,13 @@ public class FileUploading extends BaseClass{
 		 * -Cannot be handled by driver.switchTo().alerts();
 		 * -Can be handled by sending username and password in the URL
 		 * 
+		 * 3. Using Auto IT
+		 * Step 1 - Shift focus to the file upload window
+		 * Step 2 - Set <filepath> in the File name field
+		 * Step 3 - Click on the 'Open' button to upload the file
 		 * 
 		 */
+		
 		
 		
 		launchChrome();
